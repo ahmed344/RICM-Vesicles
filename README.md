@@ -17,3 +17,6 @@ d: thicknesses of the layers transversed by the light
 
 #### To get the relation between intensity and height we fit with the cosine function
 <img src="https://render.githubusercontent.com/render/math?math=R_{norm} = y_0 - A \cos \left(\frac{4 \pi n_2}{\lambda} (h - h_0) \right)">
+
+#### Refrances
+Susanne F. Fenz, Rudolf Merkel, and Kheya Sengupta, Langmuir 2009 25 (2), 1074-1085
