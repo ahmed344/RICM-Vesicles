@@ -2,7 +2,7 @@
 
 #### Studing the adhesion state of giant unilamellar vesicles using reflection interference contrast microscopy (RICM):
 The effective reflection coefficient:
-<img src="https://render.githubusercontent.com/render/math?math=R = r_{01} + [(1-r_{01}^2) e^{-i k \Delta_1}]r_{12} + [(1-r_{01}^2)(1-r_{12}^2) e^{-i k (\Delta_1 + \Delta_2)}]r_{23} + [(1-r_{01}^2)(1-r_{12}^2)(1-r_{23}^2) e^{-i k (\Delta_1 + \Delta_2 + \Delta_3)}]r_{34}">
+<img src="https://render.githubusercontent.com/render/math?math=R = r_{01} %2B [(1-r_{01}^2) e^{-i k \Delta_1}]r_{12} %2B [(1-r_{01}^2)(1-r_{12}^2) e^{-i k (\Delta_1 %2B \Delta_2)}]r_{23} %2B [(1-r_{01}^2)(1-r_{12}^2)(1-r_{23}^2) e^{-i k (\Delta_1 %2B \Delta_2 %2B \Delta_3)}]r_{34}">
 #### where:
 <img src="https://render.githubusercontent.com/render/math?math=r_{ij} = \frac{n_i - n_j}{n_i + n_j} \ ,\  k = \frac{2 \pi}{\lambda} \ ,\ \Delta_i = 2 n_i d_i">
 
