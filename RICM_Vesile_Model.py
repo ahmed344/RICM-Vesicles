@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#! /home/ahmed/anaconda3/bin/python
 
 # Libraries
 import numpy as np
