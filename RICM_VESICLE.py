@@ -66,7 +66,7 @@ class Height_map():
         R_b = r01 + ((1-r01**2) * np.exp(-1j*k*D1)) * r12 + ((1-r01**2)*(1-r12**2) * np.exp(-1j*k*(D1 + D2))) * r23
 
         # Normalized reflactance R_norm
-        R_norm = np.abs(R * np.conjugate(R)) / np.abs(R_b * np.conjugate(R_b))
+        R_norm = (np.abs(R * np.conjugate(R)) - np.abs(R_b * np.conjugate(R_b))) / np.abs(R_b * np.conjugate(R_b))
 
         return R_norm
     
@@ -256,7 +256,7 @@ class RICM(Height_map):
         # Take the average of the corrected bacground
         avg_corrected_background = np.average(background_corrected_intensities)
 
-        return img_corrected / avg_corrected_background
+        return (img_corrected - avg_corrected_background) / avg_corrected_background
     
     
     # RICM height mapping
