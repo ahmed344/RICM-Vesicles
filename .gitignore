@@ -4,6 +4,9 @@
 *.tif
 
 # data
+Movies/
+data_pdf/
+calculus/
 202*/
 
 # Byte-compiled / optimized / DLL files
